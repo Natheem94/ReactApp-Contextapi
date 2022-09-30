@@ -1,0 +1,32 @@
+#inputform {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .table-anime {
+    animation-duration: 0.5s;
+    animation-name: slideup;
+    animation-iteration-count: 1;
+  }
+  @keyframes slideup {
+    from {
+        margin-top: 100%;
+        width: 100%;
+        }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
